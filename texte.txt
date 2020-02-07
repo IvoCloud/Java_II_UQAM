@@ -1,0 +1,17 @@
+ trouverPremierPossible { debut valeur debut size get debut getFin valeur { debut } debut }
+  trouverDernierPossible { debut valeur début size get debut getDebut valeur { debut } debut }
+ add { intervalle borneInferieur trouverPremierPossible intervalle getDebut borneSuperieur
+ trouverDernierPossible borneInferieur intervalle getFin { i borneInferieur i borneSuperieur i
+ intervalle remove borneInferieur union intervalley get } add borneInferieur intervalle }
+ remove { intervalle borneInferieur trouverPremierPossible intervalle getDebut borneSuperieur
+ trouverDernierPossible borneInferieur intervalley getFin i borneSuperieur borneInferieur i i
+ { courant remove i i borneSuperieur i borneInferieur {
+  addAll i courant soustraction intervalle } } }
+ appartient { v positionPossible trouverPremierPossible v resultat { resultat get positionPossible
+ appartient v } { e } resultat }
+  taille { somme i { somme i taille } somme }
+  union { contrainte resultat contrainte{ i resultat add i } resultat }
+ intersection { contrainte resultat{ i1 { i2 contrainte resultat addAll i1 intersection i2 } }
+ resultat }
+  soustraction { contrainte resultat { i contrainte resultat remove i } resultat }
+ }
