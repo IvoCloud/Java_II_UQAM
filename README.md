@@ -10,6 +10,7 @@ This course covers advanced concepts from the Java library such as:
 * _Lambdas_
 * _Functional Interfaces_.
 * _Exceptions_
+* _Search algorithms_ - _Quicksort, BubbleSort, MergerSort, RadixSort, InsertionSort_
 
 ---
 ### This is the last school project from JAVA II. It covers the manipulation and creation of _Linked Lists_
